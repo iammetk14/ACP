@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Icecream Shop Menu</title>
+<style>
+body
+{
+font-family: Arial, sans-serif;
+background-color:lightblue;
+text-align: center;
+color: darkred;
+}
+h1{
+color: darkgreen;
+font-size:37px;
+}
+h1 + p
+{
+color:darkgoldenrod;
+font-weight:bold;
+font-size:18px;
+background-color:lightgreen;
+border-radius:10px;
+}
+.shop-description::first-letter
+{
+font-size:39px;
+font-weight: bold;
+}
+.menu-box
+{
+width: 420px;
+background-color: whitesmoke;
+border: 3px dashed white;
+border-radius: 15px;
+margin: 20px auto;
+padding:19px;
+}
+ul{
+padding:0;
+}
+ul > li
+{
+list-style: none;
+background-color: orange;
+color:rgb(255, 255, 151)
+font-size:18px;
+font-weight:bold;
+margin: 9px;
+padding:12px;
+border-radius: 10px;
+border: 2px solid yellowgreen;
+}
+ul > li:nth-child(3)
+{
+background-color: slateblue;
+color:yellow;
+border: 3px solid red;
+}
+ul > li:hover{
+cursor:pointer;
+transform: scale(1.10);
+}
+button {
+background-color: #ff0000;
+color: white;
+border: none;
+border-radius: 20px;
+padding: 12px 24px;
+font-size: 16px;
+font-weight: bold;
+}
+button:hover {
+background-color: #00bbff;
+}
+
+</style>
+</head>
+<body>
+<h1>My Ice Cream Shop Menu</h1>
+<p>Welcome to Scoops of Joy!</p>
+<p class="shop-description">
+We serve colourful, creamy, and delicious ice cream flavours.
+</p>
+<div class="menu-box">
+<h2>Today's Ice Cream Flavours</h2>
+<ul>
+<li>Choco Nut</li>
+<li>Strawberry Swirl</li>
+<li>Mango Magic - Today's Special</li>
+<li>Vanilla dream</li>
+<li>Bubblegum Blow </li>
+</ul>
+<button>Order Now</button>
+</div>
+</body>
+</html>
